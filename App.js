@@ -25,7 +25,13 @@ export default function App() {
                 </View>
                 <View style={styles.caption}>
                   <Text style={styles.captionTitle}>Setinggi mimpi</Text>
-                  <Text style={styles.captionText}>Tenang di ketinggian.</Text>
+                  <Text style={styles.captionText}>
+                    Puncak gunung menjulang di antara awan, sementara pepohonan
+                    hijau memenuhi lembah di bawahnya. Pemandangan ini memberi
+                    ruang untuk berhenti sejenak dan menikmati ketenangan alam.
+                    Setiap perjalanan mengingatkan bahwa mimpi besar dimulai dari
+                    langkah kecil.
+                  </Text>
                 </View>
               </View>
 
@@ -40,7 +46,13 @@ export default function App() {
                 </View>
                 <View style={styles.caption}>
                   <Text style={styles.captionTitle}>Seluas cerita</Text>
-                  <Text style={styles.captionText}>Jeda bersama ombak.</Text>
+                  <Text style={styles.captionText}>
+                    Cahaya senja memantul di permukaan laut dan menyapu pasir
+                    dengan warna keemasan. Ombak kecil datang silih berganti,
+                    menghadirkan suasana yang hangat dan menenangkan. Di tepi
+                    pantai, hari yang panjang terasa lebih ringan saat dinikmati
+                    perlahan, tanpa perlu terburu-buru.
+                  </Text>
                 </View>
               </View>
             </View>
