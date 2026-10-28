@@ -35,7 +35,7 @@ export default function App() {
                 </View>
               </View>
 
-              <View style={styles.photoCard}>
+              <View style={[styles.photoCard, styles.secondCard]}>
                 <View style={styles.imageFrame}>
                   <Image
                     source={require('./assets/foto2.jpg')}
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
   gallery: {
     flexDirection: 'row',
-    alignItems: 'stretch',
+    alignItems: 'flex-start',
     gap: 12,
   },
   photoCard: {
@@ -101,8 +101,11 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#E8E5DB',
   },
+  secondCard: {
+    marginTop: 26,
+  },
   imageFrame: {
-    aspectRatio: 16 / 9,
+    aspectRatio: 0.72,
     borderRadius: 11,
     overflow: 'hidden',
     backgroundColor: '#DFE4D9',
