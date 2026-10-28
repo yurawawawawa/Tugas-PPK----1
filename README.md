@@ -2,7 +2,7 @@
 
 Tugas kuliah untuk latihan layout sederhana menggunakan React Native dan Expo SDK 57.
 
-Aplikasi menampilkan teks perkenalan, dua foto landscape dari folder lokal secara berdampingan, dan caption di bawah setiap foto. Layout dibuat menggunakan `View`, `Text`, `Image`, `StyleSheet`, dan Flexbox.
+Aplikasi menampilkan sapaan **Hai, Arga.**, dua foto dari folder lokal secara berdampingan, dan caption di bawah setiap foto. Layout dibuat menggunakan `View`, `Text`, `Image`, `StyleSheet`, dan Flexbox.
 
 ## Menjalankan
 
