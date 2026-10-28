@@ -88,11 +88,13 @@ const styles = StyleSheet.create({
     marginBottom: 28,
   },
   gallery: {
-    flexDirection: 'column',
-    gap: 24,
+    flexDirection: 'row',
+    alignItems: 'stretch',
+    gap: 12,
   },
   photoCard: {
-    width: '100%',
+    flex: 1,
+    minWidth: 0,
     backgroundColor: '#FFFEFA',
     padding: 8,
     borderRadius: 18,
