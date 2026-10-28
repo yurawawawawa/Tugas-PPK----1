@@ -24,13 +24,13 @@ export default function App() {
                   />
                 </View>
                 <View style={styles.caption}>
-                  <Text style={styles.captionTitle}>Setinggi mimpi</Text>
+                  <Text style={styles.captionTitle}>Pegunungan</Text>
                   <Text style={styles.captionText}>
-                    Puncak gunung menjulang di antara awan, sementara pepohonan
-                    hijau memenuhi lembah di bawahnya. Pemandangan ini memberi
-                    ruang untuk berhenti sejenak dan menikmati ketenangan alam.
-                    Setiap perjalanan mengingatkan bahwa mimpi besar dimulai dari
-                    langkah kecil.
+                    Foto ini menampilkan deretan pegunungan dengan puncak
+                    bersalju, lembah yang luas, dan pepohonan hijau. Langit biru
+                    serta awan putih terlihat di bagian atas, sementara hutan
+                    memenuhi lereng di bagian depan. Perpaduan warna dan bentuk
+                    alam membuat pemandangan terlihat sejuk dan asri.
                   </Text>
                 </View>
               </View>
@@ -45,13 +45,13 @@ export default function App() {
                   />
                 </View>
                 <View style={styles.caption}>
-                  <Text style={styles.captionTitle}>Seluas cerita</Text>
+                  <Text style={styles.captionTitle}>Pantai</Text>
                   <Text style={styles.captionText}>
-                    Cahaya senja memantul di permukaan laut dan menyapu pasir
-                    dengan warna keemasan. Ombak kecil datang silih berganti,
-                    menghadirkan suasana yang hangat dan menenangkan. Di tepi
-                    pantai, hari yang panjang terasa lebih ringan saat dinikmati
-                    perlahan, tanpa perlu terburu-buru.
+                    Foto ini menampilkan pantai berpasir putih dengan air laut
+                    yang jernih. Ombak kecil terlihat menyapu garis pantai,
+                    sementara cahaya matahari memberi warna keemasan pada pasir
+                    dan permukaan air. Di dekat cakrawala, langit tampak hangat
+                    dengan awan yang mendapat pantulan cahaya matahari.
                   </Text>
                 </View>
               </View>
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
   captionText: {
     fontSize: 14,
     lineHeight: 22,
+    textAlign: 'justify',
     color: '#85877E',
     marginTop: 4,
   },
