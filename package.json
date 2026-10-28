@@ -19,5 +19,8 @@
     "web": "expo start --web",
     "lint": "expo lint"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.0"
+  }
 }
