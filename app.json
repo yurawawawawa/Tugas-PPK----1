@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "ppk-layout",
+    "name": "Galeri Foto",
     "slug": "ppk-layout",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
     "ios": {
       "supportsTablet": true
     },

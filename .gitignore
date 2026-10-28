@@ -1,5 +1,3 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
 # dependencies
 node_modules/
 
@@ -21,17 +19,25 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
-# debug
+# logs and temporary files
+*.log
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.tmp
+*.swp
+*~
 
-# macOS
+# operating system files
 .DS_Store
+Thumbs.db
+Desktop.ini
 *.pem
 
 # local env files
-.env*.local
+.env
+.env.*
+!.env.example
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +45,25 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local AI assistant files
+.claude/
+.codex/
+.agents/
+.cursor/
+AGENTS.md
+agents.md
+CLAUDE.md
+GEMINI.md
+.cursorrules
+.cursorignore
+
+# local editor settings
+.vscode/
+.idea/
+
+# generated checks and caches
+coverage/
+.cache/
+.eslintcache
+screenshots/verification.json
